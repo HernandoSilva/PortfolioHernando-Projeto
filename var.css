@@ -5,7 +5,7 @@
     /* cor */
 
     --color-white: hsl(252, 30%, 100%);
-    --colot-light: hsl(252, 30%, 92%);
+    --color-light: hsl(252, 30%, 92%);
     --color-gray: hsl(252, 15%, 65%);
     --color-primary: hsl(352, 75%, 60%);
     --color-dark: hsl(252,30%, 17%);
@@ -13,11 +13,11 @@
     /* fonte body */
 
     --body-font:'Ruby', sans-serif;
-    --h1-font-size: 1.5rem;
-    --h2-font-size: 1.25rem;
-    --h3-font-size: 1rem;
-    --normal-font-size: .938rem;
-    --small-font-size: .813rem;
+    --h1-font-size: 2.5rem;
+    --h2-font-size: 1.75rem;
+    --h3-font-size: 1.25rem;
+    --normal-font-size: 1rem;
+    --small-font-size: .875rem;
 
     /* font weight */
     --font-medium: 400;
@@ -27,12 +27,12 @@
     --m-05: .5rem;
     --m-0-75: .75rem;
     --m-1: 1rem;
-    --m1-5: 1.5rem;
+    --m-1-5: 1.5rem;
     --m-2: 2rem;
-    --m2-5: 2.5rem;
+    --m-2-5: 2.5rem;
 
     /* espaço das cartas */
-    --card-padding: 1.9rem 0.95;
+    --card-padding:1.9rem 0.95rem;
 
     /* border radius */
     --border-radius: 1.25rem;
