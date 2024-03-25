@@ -24,7 +24,8 @@
     --font-semi-bold: 600;
 
     /* margem */
-    --m-05: .5rem;
+    --m--0-25: -0.25rem; /*negativo*/
+    --m-0-5: .5rem;
     --m-0-75: .75rem;
     --m-1: 1rem;
     --m-1-5: 1.5rem;
