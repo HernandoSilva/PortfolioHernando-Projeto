@@ -1,14 +1,18 @@
 
 :root{
-    --header-height:3.5rem;
+    --header-height: 3.5rem;
 
     /* cor */
-
-    --color-white: hsl(252, 30%, 100%);
-    --color-light: hsl(252, 30%, 92%);
+    --primary-color-hue:352;
+    --dark-color-lightness: 17%;
+    --light-color-lightness: 92%;
+    --white-color-lightness: 100%;
+    
+    --color-white: hsl(252, 30%, var(--white-color-lightness));
+    --color-light: hsl(252, 30%, var(--light-color-lightness));
     --color-gray: hsl(252, 15%, 65%);
-    --color-primary: hsl(352, 75%, 60%);
-    --color-dark: hsl(252,30%, 17%);
+    --color-primary: hsl(var(--primary-color-hue), 75%, 60%);
+    --color-dark: hsl(252,30%, var(--dark-color-lightness));
 
     /* fonte body */
 
@@ -24,13 +28,13 @@
     --font-semi-bold: 600;
 
     /* margem */
-    --m--0-25: -0.25rem; /*negativo*/
+    /* --m--0-25: -0.25rem; trocado por não ter variável*/
     --m-0-5: .5rem;
     --m-0-75: .75rem;
     --m-1: 1rem;
     --m-1-5: 1.5rem;
     --m-2: 2rem;
-    --m--2-25: -2.25rem; /*negativo*/
+    /* --m--2-25: -2.25rem; trocado por não ter variável*/
     --m-2-5: 2.5rem;
 
     /* espaço das cartas */
