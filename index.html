@@ -36,6 +36,9 @@
                         <a href="#about" class="nav-link">Sobre</a>
                     </li>
                     <li class="nav-item">
+                        <a href="#services" class="nav-link">Serviços</a>
+                    </li>
+                    <li class="nav-item">
                         <a href="#experience" class="nav-link">Experiencia</a>
                     </li>
                     <li class="nav-item">
@@ -196,7 +199,7 @@
             </div>
         </section>
         <!-- ================== Serviços ================ -->
-        <section class="services section">
+        <section class="services section" id="services">
             <div class="container">
                 <!-- titulo da section -->
                 <h2 class="section-title padd-15">Serviços</h2>
@@ -345,29 +348,30 @@
                 <div class="row">
                     <div class="portfolio-filter padd-15">
                         <div class="portfolio-filter-inner">
-                            <button type="button" class="active">Tudo</button>
-                            <button type="button">Propótipagem</button>
-                            <button type="button">Front-End</button>
-                            <button type="button">Back-End</button>
+                            <button type="button" class="active" data-filter="tudo">Tudo</button>
+                            <button type="button" data-filter="prototipagem">Propótipagem</button>
+                            <button type="button" data-filter="front-end">Front-End</button>
+                            <button type="button" data-filter="back-end">Back-End</button>
                         </div>
                     </div>
                 </div>
                 <div class="row">
+                    <!-- colocar a data-category no projeto novo para fazer funcionar o filtro -->
                     <!-- portfolio item -->
-                    <div class="portfolio-item padd-15">
+                    <div class="portfolio-item padd-15" data-category="prototipagem">
                         <div class="portfolio-item-inner">
                             <div class="portfolio-item-thumbnail">
                                 <img src="img/PrototipagemPortalNoticias.png"
                                     alt="imagem da home da prototipagem do portal de noticias">
                                 <div class="mask"></div>
                             </div>
-                            <span class="term">Prototipagem , Front-End</span>
+                            <span class="term">Prototipagem </span>
                             <h3 class="portfolio-item-title">Prototipagem página de notícias</h3>
                             <span class="more-button">&hellip;</span>
                         </div>
                     </div>
                     <!-- portfolio item -->
-                    <div class="portfolio-item padd-15">
+                    <div class="portfolio-item padd-15" data-category="front-end">
                         <div class="portfolio-item-inner">
                             <div class="portfolio-item-thumbnail">
                                 <img src="#" alt="imagem da home da prototipagem do portal de noticias">
@@ -379,25 +383,49 @@
                         </div>
                     </div>
                     <!-- portfolio item -->
-                    <div class="portfolio-item padd-15">
+                    <div class="portfolio-item padd-15" data-category="back-end">
                         <div class="portfolio-item-inner">
                             <div class="portfolio-item-thumbnail">
                                 <img src="#" alt="imagem da home da prototipagem do portal de noticias">
                                 <div class="mask"></div>
                             </div>
-                            <span class="term">Prototipagem , Front-End</span>
+                            <span class="term">Prototipagem</span>
                             <h3 class="portfolio-item-title">Prototipagem página de notícias</h3>
                             <span class="more-button">&hellip;</span>
                         </div>
                     </div>
                     <!-- portfolio item -->
-                    <div class="portfolio-item padd-15">
+                    <div class="portfolio-item padd-15" data-category="prototipagem">
                         <div class="portfolio-item-inner">
                             <div class="portfolio-item-thumbnail">
                                 <img src="#" alt="imagem da home da prototipagem do portal de noticias">
                                 <div class="mask"></div>
                             </div>
-                            <span class="term">Prototipagem , Front-End</span>
+                            <span class="term">Prototipagem</span>
+                            <h3 class="portfolio-item-title">Prototipagem página de notícias</h3>
+                            <span class="more-button">&hellip;</span>
+                        </div>
+                    </div>
+                    <!-- portfolio item -->
+                    <div class="portfolio-item padd-15" data-category="prototipagem">
+                        <div class="portfolio-item-inner">
+                            <div class="portfolio-item-thumbnail">
+                                <img src="#" alt="imagem da home da prototipagem do portal de noticias">
+                                <div class="mask"></div>
+                            </div>
+                            <span class="term">Prototipagem</span>
+                            <h3 class="portfolio-item-title">Prototipagem página de notícias</h3>
+                            <span class="more-button">&hellip;</span>
+                        </div>
+                    </div>
+                    <!-- portfolio item -->
+                    <div class="portfolio-item padd-15" data-category="prototipagem">
+                        <div class="portfolio-item-inner">
+                            <div class="portfolio-item-thumbnail">
+                                <img src="#" alt="imagem da home da prototipagem do portal de noticias">
+                                <div class="mask"></div>
+                            </div>
+                            <span class="term">Prototipagem</span>
                             <h3 class="portfolio-item-title">Prototipagem página de notícias</h3>
                             <span class="more-button">&hellip;</span>
                         </div>
@@ -461,14 +489,6 @@
                 </div>
             </div>
         </section>
-        <!-- ================== Footer ================ -->
-        <footer class="footer">
-            <div class="container">
-                <div class="footer-text padd-15">
-                    <p>&copy; Cryptical Coder Template</p>
-                </div>
-            </div>
-        </footer>
     </main>
     <!-- ================== Customizador de tema ================ -->
     <div class="customize-theme">
