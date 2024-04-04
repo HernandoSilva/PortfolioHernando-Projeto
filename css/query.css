@@ -39,7 +39,7 @@
     }
 }
 
-@media only screen and (max-width:768px) {
+@media only screen and (max-width:  68px) {
     body {
         margin: var(--header-height) 0 0 0;
     }

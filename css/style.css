@@ -435,7 +435,9 @@ h3 {
 .text a {
     color: var(--color-primary);
 }
-
+.service-item-texts{
+        /* colocar o justify content */
+}
 /* =============Experiencia===========*/
 .education {
     flex: 0 0 50%;
