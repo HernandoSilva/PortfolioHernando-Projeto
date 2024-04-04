@@ -344,7 +344,6 @@ h3 {
 }
 
 .about-text p {
-    text-align: justify;
     margin-bottom: var(--m-1);
 }
 
@@ -435,8 +434,10 @@ h3 {
 .text a {
     color: var(--color-primary);
 }
-.service-item-texts{
-        /* colocar o justify content */
+.service-item-inner{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 /* =============Experiencia===========*/
 .education {
